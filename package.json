@@ -1,0 +1,18 @@
+{
+  "name": "htmx-sandbox",
+  "scripts": {
+    "dev": "bun run --hot src/index.ts"
+  },
+  "dependencies": {
+    "@auth/core": "^0.34.1",
+    "@lucia-auth/adapter-prisma": "^4.0.1",
+    "arctic": "^1.9.2",
+    "hono": "^4.5.1",
+    "lucia": "^3.2.0",
+    "mustache": "^4.2.0",
+    "prisma": "^5.17.0"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  }
+}
